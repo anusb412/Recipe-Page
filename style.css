@@ -57,6 +57,7 @@ select {
   font: inherit;
 }
 
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;
@@ -71,130 +72,20 @@ select {
   }
 }
 
-@media only screen and (mix-width: 320px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
-
-@font-face {
-  font-family: outfit;
-  src: url(assets/fonts/outfit/static/Outfit-Regular.ttf);
-}
-
-@font-face {
-  font-family: youngserif;
-  src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
-}
-
 .attribution {
   font-size: 11px;
   text-align: center;
 }
-
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-body {
-  background-color: hsl(30, 54%, 90%);
-  font-size: 1rem;
-  font-size: 1rem;
-  line-height: 1.7;
+@font-face {
   font-family: outfit;
-  font-weight: 600;
-  color: hsl(30, 10%, 34%);
+  src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-main {
-  background-color: white;
-  margin: 5rem 13rem 9rem 13rem;
-  border-radius: 2rem;
-  padding: 1rem;
-  min-width: 43rem;
-  max-width: 45rem;
-}
-li::marker {
-  color: hsl(14, 45%, 36%);
-}
-
-.omelette {
-  display: block;
-  max-width: 100%;
-  padding: 1rem;
-  border-radius: 2rem;
-}
-
-.prepbox {
-  background-color: hsl(330, 100%, 98%);
-  margin: 1rem;
-  padding: 1em;
-  border-radius: 1rem;
-}
-
-.prepbox ul li::marker {
-  color: hsl(332, 51%, 32%);
-}
-.preptime {
-  color: hsl(332, 51%, 32%);
-  font-family: outfit;
-}
-
-li::marker {
-  color: hsl(14, 45%, 36%);
+@font-face {
   font-family: youngserif;
-  font-weight: 400;
-}
-
-.simple {
-  font-family: youngserif;
-  font-weight: 550;
-  font-size: 2.5rem;
-  margin: 0;
-}
-
-li span {
-  position: relative;
-  left: 10px;
-}
-.instructions {
-  color: hsl(14, 45%, 36%);
-  font-family: youngserif;
-  font-weight: 400;
-}
-.nutrition {
-  color: hsl(14, 45%, 36%);
-  font-family: youngserif;
-  font-weight: 400;
-  margin: 2rem;
-}
-
-td {
-  position: relative;
-  left: 15rem;
-  color: hsl(14, 45%, 36%);
-}
-
-.nutritiontable {
-  margin: 3rem;
-  line-height: 2.2;
-}
-
-.tablep {
-  margin-left: 2.5rem;
-  letter-spacing: -1px;
-  font-family: outfit;
-  color: hsl(30, 10%, 34%);
-}
-
-.nutritiontable th {
-  font-family: outfit;
-  color: hsl(30, 10%, 34%);
+  src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
