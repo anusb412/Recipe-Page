@@ -174,3 +174,13 @@ ol li {
   margin-bottom: 1rem;
   padding: 0 0.5rem;
 }
+
+h4 {
+  padding-left: 3rem;
+}
+
+span {
+  display: inline-block;
+  position: relative;
+  left: 10rem;
+}
