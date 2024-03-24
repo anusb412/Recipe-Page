@@ -90,6 +90,15 @@ select {
   src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  min-width: 375px;
+  max-width: 707px;
+}
 .underpic {
   padding: 1rem 1.5rem;
 }
@@ -175,12 +184,6 @@ ol li {
   padding: 0 0.5rem;
 }
 
-td {
+table {
   position: relative;
-  left: 5rem;
-}
-
-tr {
-  position: relative;
-  left: 2rem;
 }
