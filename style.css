@@ -89,3 +89,88 @@ select {
   font-family: youngserif;
   src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
+
+.underpic {
+  padding: 1rem 1.5rem;
+}
+.title {
+  font-family: youngserif;
+  line-height: 2rem;
+  font-weight: 400;
+  font-size: 2.25rem;
+}
+
+.desc {
+  font-family: outfit;
+  font-weight: 400;
+  margin: 2rem 0;
+  color: hsl(30, 10%, 34%);
+}
+
+.prepcontent {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 1rem;
+  padding: 0.5rem 0.75rem;
+}
+
+ul li {
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  font-family: outfit;
+  font-weight: 400;
+}
+
+.preptimetitle {
+  font-family: outfit;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: hsl(332, 51%, 32%);
+}
+
+.preplist {
+  color: hsl(30, 10%, 34%);
+  font-family: outfit;
+}
+
+.ingredients {
+  color: hsl(14, 45%, 36%);
+  font-family: youngserif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.ingredientslist {
+  color: hsl(30, 10%, 34%);
+  line-height: 1.75rem;
+}
+
+.instructiontitle {
+  color: hsl(14, 45%, 36%);
+  font-family: youngserif;
+  font-weight: 400;
+  font-size: 1.75rem;
+}
+
+.instructionlist {
+  color: hsl(30, 10%, 34%);
+  font-family: outfit;
+}
+
+ol li {
+  margin-bottom: 0.75rem;
+}
+
+.nutritiontitle {
+  color: hsl(14, 45%, 36%);
+  font-family: youngserif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.nutritiondesc {
+  color: hsl(30, 10%, 34%);
+  font-family: outfit;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+}
