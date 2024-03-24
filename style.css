@@ -175,12 +175,12 @@ ol li {
   padding: 0 0.5rem;
 }
 
-h4 {
-  padding-left: 3rem;
+td {
+  position: relative;
+  left: 5rem;
 }
 
-span {
-  display: inline-block;
+tr {
   position: relative;
-  left: 10rem;
+  left: 2rem;
 }
